@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@1,600&family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="js/tiny-slider/tiny-slider.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Book Your room</title>
+    </head>
+
+    <body class="room">
+        <nav id="main-menu">
+            <ul>
+                <li><img src="images&files/logo.png" alt="logo"></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Activities&Tickets.html">Activities</a></li>
+                <li><a href="Architectures.html">Our Architectures</a></li>
+                <li class="current"><a href="bookaroom.html">Book Your Room</a></li>
+                <li><a href="Cafe.html">Cafe</a></li>
+            </ul>
+        </nav>
+        
+
+        <section id="page-header-b">
+           <h1>Different style of rooms are provided</h1>
+           <p>Choose your type and book in advance.</p>
+        </section>
+
+        <section id="slideshow">
+            <article class="tiny-slider">
+                <img src="images&files/room2.jpg" alt="ModernRoom">
+                <img src="images&files/room3.jpg" alt="ModernRoom">
+                <img src="images&files/room4.jpg" alt="ModernRoom">
+            </article>
+
+            <article class="room">
+                <h1>Modern Suite</h1>
+                <p>for 1-2 adults</p>
+                <p>additional service: baby bed.</p>
+                <p>Price: ₽7000</p>
+                <form class="book_room_1" id="ms_book" method="get" action="book.php">
+                    <label for="form-last-name-ms">Last name: <input id="form-last-name-ms" type="text" name="lname"/></label><br>
+                    <label for="form-phone-number-ms">PhoneNumber: <input id="form-phone-number-ms" type="text" name="phone-number"/></label><br>
+                    <label for="form-date-in-ms">Date: From: <input id="form-date-in-ms" type="date" name="date_in"/></label>
+                    <label for="form-date-out-ms">to: <input id="form-date-out-ms" type="date" name="date_out"/></label><br>
+                    <button class="submit-button" type="submit">Book</button>
+                </form>
+            </article>
+
+            <div class="book-popup" id="ms-book-popup">
+                <section class="room-booking-message">
+
+                    <div class="close-button">
+                        <a href="bookaroom.html">close</a>
+                    </div>
+
+                    <article>
+                        <h2>Receipt:</h2>
+                        <p>Mr/Ms.<span class="lastname"> </span>, please check your room information.</p>
+                        <hr>
+                        <p>You have booked a Modern Suite from <span class="day-in"> </span> to <span class="day-out"> </span>.</p>
+                        <hr>
+                        <p>the total price is ₽<span class="price"> </span>.</p>
+                        <hr>
+                        <p>Thank you very much.</p>
+                    </article>
+                </section>
+            </div>
+
+            <article class="tiny-slider-1">
+                <img src="images&files/room5.jpg" alt="TraditionalRoom">
+                <img src="images&files/room6.jpg" alt="TraditionalRoom">
+                <img src="images&files/room7.jpg" alt="TraditionalRoom">
+            </article>
+
+            <article class="room">
+                <h1>Traditional Cabin</h1>
+                <p>for families&friends</p>
+                <p>at most 8 adults</p>
+                <p>Price: ₽15000</p>
+                <form class="book_room_1" id="tc_book" method="get" action="bookaroom.html">
+                    <label for="form-last-name-tc">Last name: <input id="form-last-name-tc" type="text" name="lname"/></label><br>
+                    <label for="form-phone-number-tc">PhoneNumber: <input id="form-phone-number-tc" type="text" name="phone-number"/></label><br>
+                    <label for="form-date-in-tc">Date: From: <input id="form-date-in-tc" type="date" name="date_in"/></label>
+                    <label for="form-date-out-tc">to: <input id="form-date-out-tc" type="date" name="date_out"/></label><br>
+                    <button class="submit-button" type="submit">Book</button>
+                </form>
+            </article>
+
+            <div class="book-popup" id="tc-book-popup">
+                <section class="room-booking-message">
+
+                    <div class="close-button">
+                        <a href="bookaroom.html">close</a>
+                    </div>
+
+                    <article>
+                        <h2>Receipt:</h2>
+                        <p>Mr/Ms.<span class="lastname-tc"> </span>, please check your room information.</p>
+                        <hr>
+                        <p>You have booked a Traditional Cabin from <span class="day-in"> </span> to <span class="day-out"> </span>.</p>
+                        <hr>
+                        <p>the total price is ₽<span class="price"> </span>.</p>
+                        <hr>
+                        <p>Thank you very much.</p>
+                    </article>
+                </section>
+            </div>
+        </section>
+
+        <footer>
+            <HR>
+            <p>
+                If you got any question about this website,<br>
+                Send an email to s4673992@student.uq.edu.au<br>
+                Thank you.<br>
+                Copyright Zihao Song 46739924 University of Queensland
+            </p>
+        </footer>
+		<script src="js/tiny-slider/min/tiny-slider.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+
+<!--Reference -->
+<!--Background image: 1.Chesley.M(2021).brown wooden table and chairs[Photograph of a hotel hobby].unsplash.https://unsplash.com/photos/dhwvHSZ124g-->
+<!--image Modern Room: 2.JanClaus(2016).travel hotel rooms[Photograph of hotel room].pixabay.https://pixabay.com/zh/photos/travel-hotel-rooms-hotel-room-bed-1677347/-->
+<!--image Modern Room: 3.bottlein(2016).hotel room curtain green furniture[photograph of a hotel room].pixaby.https://pixabay.com/zh/photos/hotel-room-curtain-green-furniture-1979406/-->
+<!--image Modern Room: 4.Paul.P(2019).white bet mattress photo[Photograph of hotel room].unsplash.https://unsplash.com/photos/mr0Dp231IEw-->
+<!--image traditional cabin: 5.Esther.A(2020).Free indoors image[photograph of cabin].unslplash.https://unsplash.com/photos/xfSbRwrX9EA-->
+<!--image traditional cabin: 6.Mohammad.M.S(2020).Red throw pillow on red and white floral table cloth[photogragh of cabin].unsplash.https://unsplash.com/photos/4lKCL1ovUCk-->
+<!--slideshow plugin: 7.ganlanyuan(2018).tiny-slider(version 2.9.3)[JavaScript Plugin].ganlanyuan.https://github.com/ganlanyuan/tiny-slider -->
