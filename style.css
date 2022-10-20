@@ -1,0 +1,877 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* General */
+/* navigation*/
+#main-menu {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.8vw;
+    background-color: #3d22daa9;
+}
+
+#main-menu img{
+    padding-left: 30%;
+    width: 30px;
+    height: 20px;
+}
+#main-menu ul {
+    display: flex;
+    justify-content: center;
+	padding: 0.5em 0;
+	text-align: left;
+}
+
+#main-menu li {
+    width: 12.5%;
+    list-style-type: none;
+	padding: 0.2em 0.1em;
+}
+
+#main-menu a {
+    display: block;
+	color: white;
+	text-decoration: none;
+	padding: 0.25em 1em;
+	text-transform: uppercase;
+	border-radius: 3px;
+	text-shadow: rgba(0,0,0,0.5) 0 1px 0;
+}
+
+#main-menu a:hover {
+	color: rgba(90, 88, 88, 0.445);
+}
+
+#main-menu li.current a {
+	color: black;
+	text-shadow: none;
+}
+
+/* footer */
+footer {
+    display: block;
+}
+footer p{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer hr{
+    FILTER:alpha(opacity=60,finishopacity=20,style=2)"; /* the color of the <hr> of the footer in a white background page.*/
+    width= 80%;
+    color:#d84949;
+}
+
+
+/*homepage*/
+.index {
+    background-color: rgba(253, 253, 253, 0.3);
+}
+
+/*page-heder*/
+#page-header{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: rgb(246, 247, 248);
+    font-family: 'Dancing Script', cursive;
+    text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+    font-size: 7em;
+    background-size: cover;
+	background-position: center center;
+}
+
+
+body.index #page-header {
+    background-image: url(images&files/home1.jpg);
+}
+
+/*Introduction*/
+#Introduction {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#Introduction h1{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+    text-align: left;
+    width: 100%;
+    font-size: 100px;
+    color:#3d22daa9
+}
+#Introduction article{
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(14, 13, 13);
+    padding-top: 50px;
+    padding-right: 1vw;
+}
+
+#Introduction h2{
+    font-size: 2em;
+    padding: 10px;
+}
+
+#Introduction p{
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.intro-button {
+	text-align: left;
+	padding: 1% 0;
+}
+
+.intro-button a {
+	display: inline-block;
+	background-color: #3e22daf8;
+    text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.intro-button a:hover {
+	color: black;
+	background-color: rgb(201, 198, 198);
+}
+
+/*ski*/
+#ski {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    color: white;
+    text-align: left;
+    background-size: cover;
+	background-position: center center;
+}
+
+#ski h1{
+    font-size: 100px;
+}
+
+#ski p{
+    font-size: 50px;
+}
+.ski-button {
+	text-align: left;
+	padding: 1% 2%;
+}
+
+.ski-button a {
+	display: inline-block;
+    font-size: 40px;
+	background-color: #3e22da;
+    text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+    border-radius: 5px;
+}
+.ski-button a:hover {
+	color: black;
+	background-color: rgb(201, 198, 198);
+}
+body.index #ski{
+    background-image: url(images&files/home2.jpg);
+}
+
+/* cafe&accomodation*/
+#cafe-accomodation {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fafafa;
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    padding: 2% 0%;
+}
+#cafe-accomodation h1{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+    font-size: 100px;
+    text-align: left;
+    color: #3d22daa9;
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+#cafe-accomodation article{
+    padding: 10% 10%;
+    background-size: cover;
+	background-position: center center;
+}
+
+#cafe-accomodation article.cafe {
+    background-image: url(images&files/home3.jpg);
+}
+#cafe-accomodation article.accomodation {
+    background-image: url(images&files/home4.jpg);
+}
+
+/* Activities page*/
+#Activities {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#page-header-act{
+    padding-top: 5%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: #3e22da;
+    background-size: cover;
+	background-position: bottom center;
+}
+
+
+body.A-T #page-header-act {
+    background-image: url(images&files/A3.jpg);
+}
+
+#page-header-act h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 10vw;
+    text-shadow: white 0 4px 0;
+}
+
+
+
+#Activities article{
+    position: relative;
+    display:block;
+    padding: 20% 5%;
+    background-size: cover;
+	background-position: center center;
+
+}
+#Activities article.Activity1 {
+    background-image: url(images&files/A1.jpg);
+}
+
+#Activities article.Activity2 {
+    background-image: url(images&files/A2.jpg);
+}
+
+#Activities h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 4vw;
+    text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+}
+
+#Activities .hidden-1{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    display: block;
+    z-index: 101;
+    width: 60%;
+    height: 10%;
+    color: white;
+    font-size: 1.2vw;
+    padding-left: 1em;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+#Activities .more{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 60%;
+    z-index: 99;
+    font-size: 1.5vw;
+    background-color: black;
+    color: white;
+    width: 8%;
+    height: 15%;
+    border: none;
+    border-radius: 5px;
+    transition: width 0.8s, background-color 0.8s;
+}
+
+#Activities .more:hover {
+    background-color: white;
+    color: black;
+}
+
+#Activities .book{
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 100;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    font-size: 1.5vw;
+    background-color: orangered;
+    width: 5%;
+    height: 15%;
+    border: none;
+    border-radius: 5px;
+    display: none;
+    transition: width 0.8s, background-color 0.8s;
+}
+
+#Activities .book:hover{
+    background-color: yellow;
+    width: 8%;
+}
+
+#Activities form {
+    padding: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5vw;
+    display: none;
+    background-color: rgba(255, 68, 0, 0.596);
+}
+
+#Activities form.hidden-2 p{
+    float: left;
+    padding-left: 1vw;
+    padding-right: 3vw;
+}
+
+#Activities form.hidden-2 input{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3vw;
+    height: 1.5vw;
+    border: none;
+    border-radius: 5px;
+}
+
+#Activities form.hidden-2 select{
+    height: 1.8vw;
+    width: 8vw;
+    border: none;
+    border-radius: 5px;
+}
+
+#Activities form.hidden-2 button {
+    width: 5vw;
+    height: 2vw;
+    background-color: orangered;
+}
+
+/* book Popup */
+
+.book-popup {
+	position: fixed;
+    z-index: 101;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.75);
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.book-popup .booking-message {
+    width: 60vw;
+    height: 20vw;
+	background: orangered;
+	margin-left: 10em;
+    margin-top: 5em;
+    padding-bottom: 8em;
+	box-shadow: rgba(0,0,0,0.25) 5px 5px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+	position: relative;
+	border-radius: 5px;
+}
+
+
+.book-popup .close-button a {
+    z-index: 103;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 1em;
+}
+
+.book-popup .close-button a:before {
+	padding-right: 5px;
+	
+}
+
+body.show-ski-book-popup {
+	overflow: hidden; /* Temporarily disables page scrolling */
+}
+
+body.show-ski-book-popup #ski-book-popup {
+	visibility: visible;
+	opacity: 1;
+}
+
+body.show-beach-book-popup {
+	overflow: hidden; /* Temporarily disables page scrolling */
+}
+
+body.show-beach-book-popup #beach-book-popup {
+	visibility: visible;
+	opacity: 1;
+}
+
+body.js #Activities article.more_info .more{
+    width: 70%;
+    opacity: 0.8;
+}
+
+body.js #Activities article.more_info p{
+    opacity: 1;
+}
+
+body.js #Activities article.more_info .book{
+    display: block;
+}
+
+body.js .show-skibooking #skibook {
+    display: block;
+}
+
+body.js .show-beachbooking #beachbook{
+    display: block;
+}
+
+/* Architecture page*/
+/*page-heder*/
+#page-header-a{
+    padding-top: 5%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: rgb(87, 88, 88);
+    background-size: cover;
+	background-position: center center;
+}
+
+
+body.Archi #page-header-a {
+    background-image: url(images&files/Architecture1.jpg);
+}
+
+#page-header-a h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+    text-shadow: rgba(253, 253, 253, 0.5) 0 4px 0;
+}
+
+#page-header-a p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+}
+
+.parallax-window{
+    min-height: 20vw;
+    background: transparent;
+}
+
+/* building intro*/
+#building-intro article{
+    position: relative;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+#building-intro .building-1 img{
+    display: block;
+    width: 30vw;
+    height: 40vw;
+}
+#building-intro .building-2 img{
+    display: block;
+    width: 40vw;
+    height: 40vw;
+}
+
+#building-intro .building-1 h2 {
+    display: block;
+    width: 50vw;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+    position: absolute;
+    left: 25vw;
+    top: 13vw
+}
+#building-intro .building-1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    color: rgb(83, 13, 13);
+    display: block;
+    left: 40vw;
+    width: 20vw;
+    top: 20vw;
+}
+
+#building-intro .building-2 h2 {
+    display: block;
+    width: 50vw;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+    position: absolute;
+    left: 15vw;
+    top: 13vw
+}
+#building-intro .building-2 p{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    color: rgb(83, 13, 13);
+    display: block;
+    left: 30vw;
+    width: 20vw;
+    top: 20vw;
+}
+
+/* BOOK YOUR ROOM page*/
+#page-header-b{
+    padding-top: 5%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: white;
+    background-size: cover;
+	background-position: center center;
+}
+
+
+body.room #page-header-b {
+    background-image: url(images&files/room1.jpg);
+}
+
+#page-header-b h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+	text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+}
+
+#page-header-b p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+}
+
+
+#slideshow {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+
+#slideshow .room h1{
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+    font-size: 3vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#slideshow .room p{
+    position: relative;
+    top: 12vw;
+    left: 4vw;
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#slideshow form {
+    position: relative;
+    top:15vw;
+    left: 4vw;
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#slideshow button.submit-button{
+    width: 10vw;
+    height: 5vw;
+    position: relative;
+    left: 3vw;
+    background-color: rgba(206, 22, 22, 0.795);
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    top: 1vw;
+    border-radius: 5px;
+}
+
+#slideshow input{
+    height: 1.7vw;
+    border-radius: 3px;
+}
+
+#slideshow button.submit-button:hover {
+    background-color: rgba(204, 73, 73, 0.795);
+}
+#slideshow .tns-outer {
+	max-width: 50vw;
+	margin: 0 0;
+	margin-top: 1em;
+}
+
+#slideshow img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#slideshow .tns-controls {
+	display: block;
+	text-align: center;
+}
+
+#slideshow .tns-controls button {
+	cursor: pointer;
+    background-color: white;
+    border: none;
+	margin: 0 2em;
+	font-weight: bold;
+}
+.tns-controls {
+	background: white;
+}
+
+/*book room popup*/
+
+.book-popup .room-booking-message {
+    width: 60vw;
+    height: 20vw;
+	background: rgb(252, 129, 85);
+	margin-left: 10em;
+    margin-top: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+	box-shadow: rgba(0,0,0,0.25) 5px 5px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+	position: relative;
+	border-radius: 5px;
+}
+
+
+body.show-ms-book-popup {
+	overflow: hidden; /* Temporarily disables page scrolling */
+}
+
+body.show-ms-book-popup #ms-book-popup {
+	visibility: visible;
+	opacity: 1;
+}
+
+body.show-tc-book-popup {
+	overflow: hidden; /* Temporarily disables page scrolling */
+}
+
+body.show-tc-book-popup #tc-book-popup {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* Cafe page*/
+#page-header-c{
+    padding-top: 5%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: white;
+    background-size: cover;
+	background-position: center center;
+}
+
+
+body.cafe #page-header-c {
+    background-image: url(images&files/cafe3.jpg);
+}
+
+#page-header-c h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+	text-shadow: rgba(0,0,0,0.5) 0 4px 0;
+}
+
+#page-header-c p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+}
+
+#cafe article{
+    position: relative;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+#cafe .cafe-1 img{
+    display: block;
+    width: 40vw;
+    height: 28vw;
+}
+#cafe .cafe-2 img{
+    display: block;
+    width: 40vw;
+    height: 25vw;
+}
+
+#cafe .cafe-1 h2 {
+    display: block;
+    width: 50vw;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+    position: absolute;
+    left: 5vw;
+    top: 1vw
+}
+#cafe .cafe-1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    color: rgb(83, 13, 13);
+    display: block;
+    left: 15vw;
+    width: 20vw;
+    top: 5vw;
+}
+
+#cafe .cafe-2 h2 {
+    display: block;
+    width: 50vw;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+    position: absolute;
+    left: 5vw;
+    top: 1vw
+}
+
+#cafe .cafe-2 p{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    color: rgb(83, 13, 13);
+    display: block;
+    left: 15vw;
+    width: 20vw;
+    top: 5vw;
+}
+
+#cafe .menu{
+    position: relative;
+    top: 18vw;
+    left: 15vw;
+    height: 4vw;
+    width: 8vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    border-radius: 5px;
+    background-color: rgba(206, 22, 22, 0.795);
+}
+
+#cafe .menu:hover{
+    color:rgb(87, 88, 88);
+    background-color: rgba(204, 73, 73, 0.795);
+}
+
+/* MENU POPUP*/
+.menu-popup {
+	position: fixed;
+    z-index: 101;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.75);
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+	visibility: hidden;
+	opacity: 0;
+}
+.menu-popup .cafe-1-menu {
+    display: block;
+    width: 40vw;
+    height: 40vw;
+	background: orangered;
+	margin-left: 28vw;
+    margin-top: 5em;
+    padding-bottom: 1em;
+	box-shadow: rgba(241, 240, 240, 0.25) 5px 5px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+	border-radius: 5px;
+}
+
+.menu-popup .cafe-1-menu h1{
+    position: relative;
+    left: 2em;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.menu-popup .cafe-1-menu form{
+    position: relative;
+    padding-left: 4em;
+}
+
+.menu-popup .cafe-1-menu .submit-button{
+    display: block;
+    width: 15vw;
+    height: 5vw;
+    font-family: inherit;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.menu-popup .close-button {
+    margin: 0;
+    padding: 0;
+    background-color: orangered;
+    border: none;
+}
+
+.menu-popup .close-button a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 1em;
+}
+
+.menu-popup .close-button a:before {
+	padding-right: 5px;
+	
+}
+
+body.show-cafe-1-book-popup {
+	overflow: hidden; /* Temporarily disables page scrolling */
+}
+
+body.show-cafe-1-book-popup #cafe-1-popup {
+	visibility: visible;
+	opacity: 1;
+}
+
+body.show-cafe-2-book-popup {
+	overflow: hidden; /* Temporarily disables page scrolling */
+}
+
+body.show-cafe-2-book-popup #cafe-2-popup {
+	visibility: visible;
+	opacity: 1;
+}
